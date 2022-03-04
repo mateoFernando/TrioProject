@@ -13,6 +13,12 @@
 		5E4FD38827D0596E0041F67A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E4FD38627D0596E0041F67A /* Main.storyboard */; };
 		5E4FD38A27D0596F0041F67A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E4FD38927D0596F0041F67A /* Assets.xcassets */; };
 		5E4FD38D27D0596F0041F67A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E4FD38B27D0596F0041F67A /* LaunchScreen.storyboard */; };
+		5E4FD39627D0996A0041F67A /* RestAPIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E4FD39527D0996A0041F67A /* RestAPIManager.swift */; };
+		5E4FD39827D09F9A0041F67A /* RestaurantManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E4FD39727D09F9A0041F67A /* RestaurantManager.swift */; };
+		5E4FD39A27D1BB330041F67A /* RestaurantBE.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E4FD39927D1BB330041F67A /* RestaurantBE.swift */; };
+		5E4FD39C27D1C0130041F67A /* AddressBE.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E4FD39B27D1C0130041F67A /* AddressBE.swift */; };
+		5E4FD39E27D1C06E0041F67A /* GeoBE.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E4FD39D27D1C06E0041F67A /* GeoBE.swift */; };
+		5E4FD3A227D1C14A0041F67A /* MenuBE.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E4FD3A127D1C14A0041F67A /* MenuBE.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +30,12 @@
 		5E4FD38927D0596F0041F67A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5E4FD38C27D0596F0041F67A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5E4FD38E27D0596F0041F67A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5E4FD39527D0996A0041F67A /* RestAPIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestAPIManager.swift; sourceTree = "<group>"; };
+		5E4FD39727D09F9A0041F67A /* RestaurantManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantManager.swift; sourceTree = "<group>"; };
+		5E4FD39927D1BB330041F67A /* RestaurantBE.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantBE.swift; sourceTree = "<group>"; };
+		5E4FD39B27D1C0130041F67A /* AddressBE.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressBE.swift; sourceTree = "<group>"; };
+		5E4FD39D27D1C06E0041F67A /* GeoBE.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeoBE.swift; sourceTree = "<group>"; };
+		5E4FD3A127D1C14A0041F67A /* MenuBE.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuBE.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +71,12 @@
 				5E4FD38027D0596E0041F67A /* AppDelegate.swift */,
 				5E4FD38227D0596E0041F67A /* SceneDelegate.swift */,
 				5E4FD38427D0596E0041F67A /* ViewController.swift */,
+				5E4FD39527D0996A0041F67A /* RestAPIManager.swift */,
+				5E4FD39727D09F9A0041F67A /* RestaurantManager.swift */,
+				5E4FD39927D1BB330041F67A /* RestaurantBE.swift */,
+				5E4FD39B27D1C0130041F67A /* AddressBE.swift */,
+				5E4FD39D27D1C06E0041F67A /* GeoBE.swift */,
+				5E4FD3A127D1C14A0041F67A /* MenuBE.swift */,
 				5E4FD38627D0596E0041F67A /* Main.storyboard */,
 				5E4FD38927D0596F0041F67A /* Assets.xcassets */,
 				5E4FD38B27D0596F0041F67A /* LaunchScreen.storyboard */,
@@ -138,9 +156,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5E4FD39E27D1C06E0041F67A /* GeoBE.swift in Sources */,
+				5E4FD39827D09F9A0041F67A /* RestaurantManager.swift in Sources */,
+				5E4FD39A27D1BB330041F67A /* RestaurantBE.swift in Sources */,
 				5E4FD38527D0596E0041F67A /* ViewController.swift in Sources */,
+				5E4FD3A227D1C14A0041F67A /* MenuBE.swift in Sources */,
 				5E4FD38127D0596E0041F67A /* AppDelegate.swift in Sources */,
+				5E4FD39627D0996A0041F67A /* RestAPIManager.swift in Sources */,
 				5E4FD38327D0596E0041F67A /* SceneDelegate.swift in Sources */,
+				5E4FD39C27D1C0130041F67A /* AddressBE.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
